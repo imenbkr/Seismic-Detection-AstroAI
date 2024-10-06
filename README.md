@@ -27,7 +27,7 @@ Explore our app by uploading your own `.mseed` files or using the provided examp
 
 **[Example .mseed file for input:](https://drive.google.com/file/d/1v-gJv-d8BdZARd6r53zdkR03G3WWbp3r/view?usp=drive_link)**
 
-#### There is also a demo video of our app here [link](https://drive.google.com/file/d/12qfmG8CpazCq8_ZhbJpK92Poj-xeHzeG/view?usp=sharing) and here [Youtube Link](https://www.youtube.com/watch?v=jMFm2mk1L2g)
+#### There is also a demo video of our app [Youtube Link](https://www.youtube.com/watch?v=jMFm2mk1L2g)
 
 ## How to Run the Application
 1. Clone the repository:  
