@@ -1,23 +1,53 @@
-## Seismic Detection across the solar system | Nasa SpaceApps Challenge 2024
+# **Seismic Detection Across the Solar System**  
+*Nasa SpaceApps Challenge 2024*
 
-### Project Overview:
-In our project, we developed a machine learning model integrated with a user-friendly interface to detect seismic events in planetary data, specifically from the Apollo missions and the InSight Lander. The project addresses the challenge of identifying seismic signals from noisy datasets, optimizing data transmission, and improving seismic event detection accuracy on other planets. 
+## Project Overview
+This project focuses on developing a **machine learning model** integrated with a **user-friendly web application** to detect seismic events in planetary data. Specifically, we worked with [seismic data](https://www.spaceappschallenge.org/nasa-space-apps-2024/challenges/seismic-detection-across-the-solar-system/?tab=resources) from NASA's **Apollo missions** and the **InSight Lander** to tackle the challenge of identifying seismic signals in noisy datasets. Our goal is to improve the accuracy of seismic event detection on other planets while optimizing data transmission.
 
-### Project Details:
-With our web application, users can upload .mseed files, view metadata, and visualize seismic waveforms through an interactive plot. 
-#### Machine Learning techniques:
-The application employs various machine learning models, selecting the most effective one based on its F1 score, to identify seismic events amidst noise, using the SMOTE techniques to handle class imbalance. 
+## Features
+- Upload `.mseed` seismic data files.
+- View file metadata and visualize seismic waveforms in an interactive plot.
+- Predict and classify seismic events using a machine learning model.
+- Interactive threshold controls for fine-tuned seismic detection and noise reduction using the STA/LTA algorithm.
 
-The model predicts and classifies these events, improving detection accuracy. Also, it provides the start time of each detected event.  
+## Machine Learning Techniques
+Our application leverages **machine learning models** to classify seismic events and filter noise. The model is selected based on the best **F1 score** and utilizes **SMOTE** (Synthetic Minority Over-sampling Technique) to handle class imbalance in seismic event data.  
+Key features include:
+- **Seismic Event Prediction**: Identify and classify seismic events.
+- **Event Timing**: Pinpoint the start time of detected events to enhance analysis.
 
+## Tech Stack
+- **Python**: Core language.
+- **Libraries**: Scikit-learn, Pandas, Streamlit for web app and data processing.
+- **Machine Learning**: Model training and evaluation for seismic event classification.
 
-The interface offers interactive visualizations of waveform data and audio playback of seismic signals, allowing users to specify detection thresholds. This tool enhances the accuracy and efficiency of seismic event identification, potentially uncovering previously unnoticed events. Developed using Python and libraries such as Scikit-learn, Pandas, and Streamlit, the project is designed to be accessible and efficient, with the potential for deployment on various platforms.
+## Visit our app!
+OUr app is hosted on the cloud. You can visit it following this [Link1](https://astroai.streamlit.app/) or following this other [Link2](https://seismic-detection.onrender.com/)
+Explore our app by uploading your own `.mseed` files or using the provided example. The app will allow you to view metadata, visualize waveforms, and identify seismic events.
 
-### Visit our app!
-For anyone who wants to use the app, use this .mseed file as an example input! [Link to file](https://drive.google.com/file/d/1v-gJv-d8BdZARd6r53zdkR03G3WWbp3r/view?usp=drive_link)
+**[Example .mseed file for input:](https://drive.google.com/file/d/1v-gJv-d8BdZARd6r53zdkR03G3WWbp3r/view?usp=drive_link)**
 
 #### There is also a demo video of our app here [link](https://drive.google.com/file/d/12qfmG8CpazCq8_ZhbJpK92Poj-xeHzeG/view?usp=sharing)
 
+## How to Run the Application
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/imenbkr/Seismic-Detection-AstroAI.git
+   
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+3. Run the App:
+   ```bash
+   streamlit run app.py
+
+### Future Improvements
+- Support for additional planetary missions and datasets.
+- Real-time data streaming from spacecrafts or landers.
+- Improved model accuracy with more advanced machine learning techniques.
+
+### Screenshots from our application:
 
 ![image](https://github.com/user-attachments/assets/564f2c99-8818-4f12-8440-644bc5917e41)
 
@@ -40,3 +70,7 @@ For anyone who wants to use the app, use this .mseed file as an example input! [
 ![image](https://github.com/user-attachments/assets/36646ccc-7a39-42b1-84f7-957bf6cbb408)
 
 
+---
+### Link to team page on Nasa SpaceApps Website: [AstroAI](https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/nasai/?tab=details)
+#### 🚀 Team members: 🚀
+- Imen Bakir, Islem Ben Moalem, Ons ABida.
