@@ -1,12 +1,15 @@
 ## Seismic Detection across the solar system | Nasa SpaceApps Challenge 2024
 
+### Project Overview:
 In our project, we developed a machine learning model integrated with a user-friendly interface to detect seismic events in planetary data, specifically from the Apollo missions and the InSight Lander. The project addresses the challenge of identifying seismic signals from noisy datasets, optimizing data transmission, and improving seismic event detection accuracy on other planets. 
 
+### Project Details:
 With our web application, users can upload .mseed files, view metadata, and visualize seismic waveforms through an interactive plot. 
-
+#### Machine Learning techniques:
 The application employs various machine learning models, selecting the most effective one based on its F1 score, to identify seismic events amidst noise, using the SMOTE techniques to handle class imbalance. 
 
 The model predicts and classifies these events, improving detection accuracy. Also, it provides the start time of each detected event.  
+
 
 The interface offers interactive visualizations of waveform data and audio playback of seismic signals, allowing users to specify detection thresholds. This tool enhances the accuracy and efficiency of seismic event identification, potentially uncovering previously unnoticed events. Developed using Python and libraries such as Scikit-learn, Pandas, and Streamlit, the project is designed to be accessible and efficient, with the potential for deployment on various platforms.
 
