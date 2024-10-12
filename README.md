@@ -1,5 +1,5 @@
 # **Seismic Detection Across the Solar System**  
-*Nasa SpaceApps Challenge 2024* | 🥉Achieved 3rd place out of 23 teams for the local Sfax event🥉 
+*Nasa SpaceApps Challenge 2024* | 🥉Achieved 3rd place out of 23 teams for the local Sfax event🥉 [Link to the results](https://www.facebook.com/share/p/TbaqQoRG4ZcKKZwd/) 
 
 ## Project Overview
 This project focuses on developing a **machine learning model** integrated with a **user-friendly web application** to detect seismic events in planetary data. Specifically, we worked with [seismic data](https://www.spaceappschallenge.org/nasa-space-apps-2024/challenges/seismic-detection-across-the-solar-system/?tab=resources) from NASA's **Apollo missions** and the **InSight Lander** to tackle the challenge of identifying seismic signals in noisy datasets. Our goal is to improve the accuracy of seismic event detection on other planets while optimizing data transmission.
